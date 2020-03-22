@@ -1,7 +1,7 @@
 CC = gcc
 # -g for add debug info on the compile
 # -Wall is show all Warning flags
-CFLAGS=-Wall -g
+CFLAGS=-Wpedantic -g -std=c99
 
 # Define the full project compilation targets, as this is just one, that's it
 target?=ex10
